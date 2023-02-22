@@ -164,23 +164,28 @@
   margin-top: 100px;
   background-color: #f2f2f2;
   position: relative;
+  height: 890px;
 }
 .feyman__title {
   width: 648px;
+  position: relative;
   text-align: center;
   padding-top: 100px;
   margin: auto;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
+  z-index: 2;
 }
 .feyman__subtitle {
+  position: relative;
   text-align: center;
   padding-top: 70px;
   margin: auto;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  z-index: 2;
 }
 .feyman__link {
   position: absolute;
@@ -195,8 +200,8 @@
   width: 867px;
   height: 637px;
   position: absolute;
-  bottom: 0;
   left: 0;
+  bottom: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */

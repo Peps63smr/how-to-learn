@@ -269,8 +269,8 @@ z-index: 2;
   padding-bottom: 18px;
 }
 .footer__column_info {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .footer__column-heading {
   color: white;
@@ -280,8 +280,8 @@ flex-direction: column;
   font-weight: 600px;
 }
 .footer__column-links {
-color: white;
-margin-bottom: 16px;
+  color: white;
+  margin-bottom: 16px;
 }
 .footer__column-link {
   line-height: 30px;
@@ -292,11 +292,14 @@ margin-bottom: 16px;
   font-style: none;
 }
 .footer__column_social {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+
 }
 .footer__social-icon {
-margin-right: 10px;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 .a__style {
   text-decoration: none;
